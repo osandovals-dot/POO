@@ -51,3 +51,15 @@ if Numero2 > Numero1:
         print(f"El numero {Numero2} es el mayor")
     else:
         print(f"El numero {Numero3} es el mayor")
+
+#Escribir un programa en Java que lea un número entero por el teclado e imprima todos los número impares menores que él.
+
+NumeroIntervalo = int(input("Ingrese un numero del 1 al 10: "))
+
+for r in range (0,10):
+    if r%2:
+        print(r)
+        if r == NumeroIntervalo:
+            pass
+    else:
+        pass
