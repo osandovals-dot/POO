@@ -1,6 +1,7 @@
 #Autor Oscar Sandoval
 #primera version
 
+
 #1. Estructuras de control
 
 #Prueba
@@ -33,3 +34,20 @@ Ancho = float(input("Escriba el ancho del área en forma numerica (use el . para
 
 AreaTotal = Alto*Ancho
 print (AreaTotal)
+
+#Escriba un programa que lea tres números enteros positivos, y que calcule e imprima en pantalla el menor y el mayor de todos ellos.
+
+Numero1 = int(input("Escriba el primer numero entero en forma numerica: "))
+Numero2 = int(input("Escriba el segundo numero entero en forma numerica: "))
+Numero3 = int(input("Escriba el tercer numero entero en forma numerica: "))
+
+if Numero1 > Numero2:
+    if(Numero1 > Numero3):
+        print(f"El numero {Numero1} es el mayor")
+    else:
+        print(f"El numero {Numero3} es el mayor")
+if Numero2 > Numero1:
+    if (Numero2 > Numero3):
+        print(f"El numero {Numero2} es el mayor")
+    else:
+        print(f"El numero {Numero3} es el mayor")
